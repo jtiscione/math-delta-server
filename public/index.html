@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Using math-delta</title>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+        <script type="text/javascript" src="index.js"></script>
+    </head>
+    <body style="font-size:x-large;text-align:center">
+        <i><sub>-x</sub><sup style="vertical-align:top;position:relative;top:-0.5em">x</sup><span style="font-size:xx-large">&int;</span>e<sup>-x<sup>2</sup>/a<sup>2</sup></sup>dx / (a * &radic;<span style="text-decoration: overline">&pi;</span>)</i>
+        <form>
+            <p>
+                a:<input id="a" type="number" label="a:" value="1.0" step="0.01"/>
+            </p>
+            <p>
+                x:<input id="x" type="number" label="|x|" value="0.0" step="0.01"/>
+            </p>
+        </form>
+        <div>Percent of total area:</div>
+        <div style="font-size:xx-large"><span id="result" style="font-size:xx-large">0.0%</span></div>
+    </body>
+</html>

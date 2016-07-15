@@ -1,0 +1,15 @@
+{
+  "name": "math-delta-server",
+  "version": "1.0.0",
+  "description": "Demo of math-delta module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jason Tiscione <tiscione@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0",
+    "math-delta": "^1.0.0"
+  }
+}
